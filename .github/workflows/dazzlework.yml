@@ -44,4 +44,4 @@ jobs:
 
       - name: Deploy application
         run: |
-          aws s3 cp ./dist/ s3://dazzle5436 --recursive
+          aws s3 sync . s3://dazzle5436 --recursive
