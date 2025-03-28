@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply the font globally */
+body {
+    font-family: 'Playwrite IN';
+   
+  }
+  
+  /* Other custom styles can go here */
+  p, li{
+    font-family: serif;
+  }
+
+  .text-blue-600 {
+    color: #2563eb;
+  }
+  
+  .text-blue-500 {
+    color: #1e3a8a;
+  }
+  
+  .text-blue-700 {
+    color: #1e40af;
+  }
+
+
+
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* For Internet Explorer */
+    scrollbar-width: none;      /* For Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;             /* For WebKit browsers (Chrome, Safari, etc.) */
+}
+
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it's above other content */
+    width: 100%;
+}
+
+
+
+
+
+
+
+  
+  
+  
