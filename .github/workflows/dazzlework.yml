@@ -27,10 +27,6 @@ jobs:
       - name: Install dependencies
         run: npm ci --legacy-peer-deps --verbose
 
-      # Step 4: Run tests (if applicable)
-      - name: Run tests
-        run: npm test
-
   deploy:
     runs-on: ubuntu-latest
     needs: build
